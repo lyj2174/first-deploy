@@ -7,17 +7,18 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/next.png"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={400}
+          height={120}
           priority
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.js</code>.
+            Git hub ID :  <code>lyj2174</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>lyj2174@gmail.com
+          </li>
         </ol>
 
         <div className={styles.ctas}>
