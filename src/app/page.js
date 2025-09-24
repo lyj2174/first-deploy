@@ -8,7 +8,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/next.png"
-          alt="Next.js logo"
+          alt="LGCNS logo"
           width={400}
           height={120}
           priority
@@ -30,8 +30,8 @@ export default function Home() {
           >
             <Image
               className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
+              src="/next.png"
+              alt="CNS logomark"
               width={20}
               height={20}
             />
