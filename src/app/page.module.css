@@ -187,14 +187,14 @@ a.secondary {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25vh;
+  margin-top: 40vh;
 }
 
 
 .name {
   font-size: 50px;
   font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 27px;
   font-family: 'Yangjin';
 }
 
@@ -202,12 +202,8 @@ a.secondary {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  margin-top: 25vh;
+  margin-top: 44vh;
   justify-content: center;
   font-size: 40px;
   font-family: 'MaruBuri';
-}
-
-.detail {
-  font-size: 20px;
 }

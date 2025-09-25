@@ -48,10 +48,10 @@
 /* 🔹 타이틀 전용 스타일 */
 .cardTitle {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Noto Sans KR", sans-serif; /* 예시: 깔끔한 한글 폰트 */
+  font-family: 'Yangjin';
 }
 
 /* 🔹 내용 전용 스타일 */
@@ -69,6 +69,7 @@
 
 .cardBody li {
   margin-bottom: 8px;
+  font-family: 'Yangjin';
 }
 
 /* 🔹 링크 스타일 */
@@ -77,6 +78,11 @@
   font-weight: bold;
   text-decoration: underline;
   transition: color 0.2s;
+}
+
+.cardBody h2 {
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif; /* 예시: 깔끔한 한글 폰트 */
 }
 
 .cardBody a:hover {
