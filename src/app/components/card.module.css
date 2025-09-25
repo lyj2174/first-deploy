@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Yangjin';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+
+.card {
+  background: white;
+  width: 200vh;
+  min-height: 50vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+}
+
+.dotBlue, .dotPurple, .dotPink {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dotBlue { background: #3b82f6; }
+.dotPurple { background: #a855f7; }
+.dotPink { background: #ec4899; }
+
+.cardContent {
+  padding: 24px;
+  flex: 1;
+}
+
+/* 🔹 타이틀 전용 스타일 */
+.cardTitle {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Noto Sans KR", sans-serif; /* 예시: 깔끔한 한글 폰트 */
+}
+
+/* 🔹 내용 전용 스타일 */
+.cardBody {
+  font-size: 35px;
+  line-height: 1.6;
+  font-family: 'MaruBuri';
+}
+
+/* 리스트 기본 기호 없애기 */
+.cardBody ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cardBody li {
+  margin-bottom: 8px;
+}
+
+/* 🔹 링크 스타일 */
+.cardBody a {
+  color: #2563eb; /* 파란색 */
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.cardBody a:hover {
+  color: #1d4ed8; /* hover 시 진한 파란색 */
+}

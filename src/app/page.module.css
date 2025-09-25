@@ -1,17 +1,28 @@
+@font-face {
+    font-family: 'Yangjin';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-
+  background-color: whitesmoke;
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
+  padding: 40px;
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
@@ -170,4 +181,33 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+
+.name {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-top: 20px;
+  font-family: 'Yangjin';
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 25vh;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'MaruBuri';
+}
+
+.detail {
+  font-size: 20px;
 }
