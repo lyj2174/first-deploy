@@ -207,3 +207,9 @@ a.secondary {
   font-size: 40px;
   font-family: 'MaruBuri';
 }
+
+.cloud {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(62, 23, 255);
+}
