@@ -25,6 +25,8 @@ export default function Home() {
             <li>Email : lyj2174@gmail.com</li>
             <br/>
             <li>취미 : 골프, 여행, 헬스</li>
+            <br/>
+            <li>글로벌 클라우드 환경에서 안정적이고 확장성 있는 시스템을 설계·운영하는 <span className={styles.cloud}>클라우드 엔지니어</span>를 목표로 하고 있습니다.</li>
           </ul>
         </Card>
         {/* 학력 */}
